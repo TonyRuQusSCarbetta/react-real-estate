@@ -30,7 +30,6 @@ export default class Header extends Component {
       </section>
 
       <section className="listings-results">
-      <div className="col-md-6">
         <div className="listing">
           <div className="listing-img">
             <span className="address">2028 Leavenworth St</span>
@@ -40,44 +39,6 @@ export default class Header extends Component {
               </div>
 
               <div className="col-md-9">
-                <div className="user-details">
-                  <span className="user-name">Marissa Martinez</span>
-                  <span className="post-date">05/26/2018</span>
-                </div>
-                </div>
-                <div className="listing-details">
-                  <div className="floor-space">
-                    <i className="far fa-square"></i>
-                    <span>1000ft&sup2;</span>
-                    <div className="bedrooms">
-                      <i className="fas fa-bed"></i>
-                      <span className="bedroom-text">3 bedrooms</span>
-                    </div>
-                  </div>
-                  <div className="view-btn">View Listing</div>
-                </div>
-
-
-            </div>
-          </div>
-          <div className="bottom-info">
-            <span className="price">$4000 / month</span>
-            <span className="location">
-              <i className="fas fa-map-marker-alt"></i> San Francisco, CA</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-3">
-        <div className="listing">
-          <div className="listing-img">
-            <span className="address">2028 Leavenworth St</span>
-            <div className="details">
-              <div className="col-md-3">
-                <div className="user-image"></div>
-              </div>
-
-              <div className="col-listing-grid-long">
                 <div className="user-details">
                   <span className="user-name">Marissa Martinez</span>
                   <span className="post-date">05/26/2018</span>
@@ -103,46 +64,6 @@ export default class Header extends Component {
               <i className="fas fa-map-marker-alt"></i> San Francisco, CA</span>
           </div>
         </div>
-      </div>
-
-
-
-      <div className="col-md-3">
-        <div className="listing">
-          <div className="listing-img">
-            <span className="address">2028 Leavenworth St</span>
-            <div className="details">
-              <div className="col-md-3">
-                <div className="user-image"></div>
-              </div>
-
-              <div className="col-listing-grid-long">
-                <div className="user-details">
-                  <span className="user-name">Marissa Martinez</span>
-                  <span className="post-date">05/26/2018</span>
-                </div>
-                <div className="listing-details">
-                  <div className="floor-space">
-                    <i className="far fa-square"></i>
-                    <span>1000ft&sup2;</span>
-                    <div className="bedrooms">
-                      <i className="fas fa-bed"></i>
-                      <span className="bedrooms-text">3 bedrooms</span>
-                    </div>
-                  </div>
-                  <div className="view-btn">View Listing</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div className="bottom-info">
-            <span className="price">$4000 / month</span>
-            <span className="location">
-              <i className="fas fa-map-marker-alt"></i> San Francisco, CA</span>
-          </div>
-        </div>
-      </div>
       </section>
 
 
@@ -152,11 +73,7 @@ export default class Header extends Component {
 
 
 
-
-
-
-
-      <section className="col-md-12 pagination">
+      <section className="pagination">
         <ul className="pagination-nums">
           <li>Prev</li>
           <li>1</li>
